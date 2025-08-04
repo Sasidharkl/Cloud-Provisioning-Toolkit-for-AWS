@@ -1,7 +1,7 @@
 provider "aws" {
   region = var.aws_region
-  access_key = "AKIAEXAMPLE1234567890"  # Placeholder access key
-  secret_key = "abc123def456ghi789jkl012mno345pqrs678"  # Placeholder secret key
+  access_key = "ABCDEFGHIJKLM"  # Placeholder access key
+  secret_key = "abcdefghijklm"  # Placeholder secret key
 }
 
 module "vpc" {
